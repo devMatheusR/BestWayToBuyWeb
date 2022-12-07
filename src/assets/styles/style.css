@@ -1,0 +1,120 @@
+
+:root {
+    --text-primary: #fff;
+    --primary-Color:#044D8C;
+    --secondary-Color: #0583F2;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: var(--primary-Color);
+    font-family: 'Copse', sans-serif;
+                                                
+}
+
+.navbar {
+    height: 124px;
+    background-color: var(--secondary-Color);
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color: var(--text-primary); 
+    justify-content: space-around;
+}
+
+.navbar-toggler-icon{
+    color: var(--text-primary);
+}
+
+.navbar-nav{
+    width: 80%;
+    align-items: center;
+} 
+
+.nav-link{
+    color: var(--text-primary);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 5%;
+    background-color: var(--secondary-Color);
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 70vh;
+}
+
+.sidebar-item{
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 90px;
+    margin: 90px auto 0;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color: var(--text-primary); 
+    align-items: center;
+}
+
+.sidebar-text{
+    margin: auto;
+    color: var(--text-primary);
+    font-size: 22px;
+}
+
+.form-mercado{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5% auto 0;
+    border-radius: 20px;
+    background-color: var(--secondary-Color);
+    width: 70%
+}
+
+.mapa{
+    width: 60%;
+    justify-content: center;
+    margin: 3% auto 0;
+}
+
+.iframeMapa{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.divButton{
+    align-items: flex-end;
+    justify-content: right;
+    margin-bottom: 3vh;
+}
+
+.btnAdicionar{
+    width: 170px;
+    height: 52px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.btnReset{
+    width: 170px;
+    height: 52px;
+    margin-right: 2vh;
+    background-color: var(--primary-Color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.btnText{
+    font-size: 24px;
+    color: var(--text-primary);
+}
